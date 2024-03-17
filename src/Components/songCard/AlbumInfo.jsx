@@ -1,6 +1,6 @@
 import React from 'react'
 import './albumInfo.css'
-export default function AlbumInfo() {
+export default function AlbumInfo({ album }) {
     const artists = [];
     album?.artists?.forEach((element) => {
       artists.push(element.name);
