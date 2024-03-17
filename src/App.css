@@ -1,0 +1,7 @@
+.main-body{
+  background-color: rgb(52, 85, 74);
+  height: 97vh;
+  width: 100%;
+  border-radius:30px;
+  display: flex;
+}

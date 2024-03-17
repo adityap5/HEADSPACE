@@ -1,0 +1,8 @@
+@import url(./Shared/global.css);
+
+body{
+  background-color: black;
+  color: white;
+  font-family: "Miriam Libre";
+  height: 100%;
+}
