@@ -3,7 +3,7 @@ import axios from "axios";
 
 const authEndpoint = "https://accounts.spotify.com/authorize?";
 const clientId = "1846f262c1bf47f7b82d29e5411369e9";
-const redirectUri = "http://localhost:5173";
+const redirectUri = "https://headspace-ap.netlify.app";
 const scopes = ["user-library-read", "playlist-read-private"];
 
 export const loginEndpoint = `${authEndpoint}client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
